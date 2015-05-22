@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android1:id="@+id/COM252"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentRight="true"
+        android1:layout_alignParentTop="true"
+        android1:layout_marginLeft="17dp"
+        android1:layout_marginRight="38dp"
+        android1:layout_marginTop="40dp"
+        android1:text="COM252" />
+
+    <CheckBox
+        android1:id="@+id/COM240"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/COM252"
+        android1:layout_alignParentTop="true"
+        android1:layout_alignRight="@+id/COM252"
+        android1:layout_marginTop="93dp"
+        android1:text="COM240" />
+    
+    <CheckBox
+        android1:id="@+id/COM250"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/COM240"
+        android1:layout_alignParentTop="true"
+        android1:layout_alignRight="@+id/COM240"
+        android1:layout_marginTop="93dp"
+        android1:text="COM240" />
+
+    <CheckBox
+        android1:id="@+id/COM255"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/COM240"
+        android1:layout_alignRight="@+id/COM240"
+        android1:layout_below="@+id/COM240"
+        android1:text="COM255" />
+
+    <Button
+        android1:id="@+id/save"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/COM287"
+        android1:layout_alignRight="@+id/COM287"
+        android1:layout_below="@+id/COM287"
+        android1:layout_marginTop="34dp"
+        android1:text="Save" />
+
+    <CheckBox
+        android1:id="@+id/COM287"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/COM255"
+        android1:layout_below="@+id/COM255"
+        android1:text="COM287" />
+
+</RelativeLayout>

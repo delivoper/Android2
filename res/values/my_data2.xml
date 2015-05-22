@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+	
+	<string-array name="my_data_list2">
+		<item>COM211</item>
+		<item>COM212</item>
+		<item>COM213</item>
+		<item>COM214</item>
+		<item>COM215</item>  	  
+	</string-array>
+        
+</resources>

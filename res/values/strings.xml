@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CAS</string>
+    <string name="action_settings">Ayarlar</string>
+    
+    <string-array name="menu">
+        <item >1. Sınıf</item>
+        <item >2. Sınıf</item>
+        <item >3. Sınıf</item>
+        <item >4. Sınıf</item>
+    </string-array>
+    
+    <string name="drawer_open">Drawer Açıldı</string>
+    <string name="drawer_close">Drawer Kapandı</string>
+    <string name="dersEkle">Ders Ekle</string>
+
+</resources>

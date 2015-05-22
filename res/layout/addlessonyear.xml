@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="43dp"
+        android:text="Yıl seçin"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_year1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button_year4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="@+id/button_year3"
+        android:layout_alignRight="@+id/Button_year3"
+        android:layout_marginTop="45dp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/Button_year2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button_year4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button_year1"
+        android:layout_marginLeft="182dp"
+        android:text="2" />
+
+     <Button
+         android:id="@+id/Button_year3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/textView1"
+         android:layout_marginBottom="7dp"
+         android:layout_marginRight="181dp"
+         android:layout_marginTop="200dp"
+         android:text="3" />
+
+     <Button
+         android:id="@+id/Button_year4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/Button_year3"
+         android:layout_alignLeft="@+id/Button_year2"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@+id/Button_year3"
+         android:layout_marginRight="7dp"
+         android:text="4" />
+
+</RelativeLayout>
